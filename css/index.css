@@ -1,0 +1,151 @@
+/* red #c8492e */
+/* grey #333333 */
+
+
+@font-face {
+    font-family: "Gotham-Book";
+    src: url("../fonts/Gotham-Book.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Gotham-Black";
+    src: url("../fonts/Gotham-Black.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Gotham-Medium";
+    src: url("../fonts/Gotham-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Gotham-Thin";
+    src: url("../fonts/Gotham-Thin.otf") format("opentype");
+}
+
+.btn-red {
+    background-color: #c8492e;
+    border-color: #a03a24;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.btn-red:hover {
+    background-color: #a03a24;
+    border-color: #742919;
+}
+
+.jumbotron {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    background: #000 url('../img/cityscape.svg') bottom left repeat-x;
+    background-size: auto;
+    animation: scrollLeft 5s;
+    overflow-x: hidden;
+    margin-bottom: 0;
+}
+
+.jumbotron h1 {
+    font-family: 'Gotham-Medium', Arial, serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 4.0rem;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    line-height: 4rem;
+}
+
+.jumbotron h2 {
+    font-family: 'Gotham-Book', serif;
+    font-weight: normal;
+    line-height: 2rem;
+}
+
+.jumbotron h3 {
+    font-family: 'Gotham-Thin', serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+
+.jumbotron p:first-of-type {
+    margin: 4.3rem 0;
+}
+
+.stayInformed {
+    margin-right: 2rem;
+}
+
+.submitButton {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: 1rem;
+}
+
+.emailForm {
+    text-align: center;
+    margin: 0 auto;
+    background-color: #000;
+    color: #fff;
+    padding: 1.2rem;
+}
+
+.infoBlock {
+    padding: 1.5rem;
+}
+
+.infoBlock p {
+    font-family: 'Arial', serif;
+    font-size: 1.2rem;
+}
+.infoBlock--dark {
+    background-color: #000;
+    color: #fff;
+}
+
+.infoBlock--light {
+    background-color: #fff;
+    color: #000;
+}
+
+.infoBlock--light h4, .infoBlock--light h5 {
+    color: #c8492e;
+}
+
+.infoBlock h4, .infoBlock h5, .infoBlock h6, .infoBlock h7 {
+    width: 100%;
+}
+
+.infoBlock h4 {
+    font-family: 'Gotham-Black', 'Arial', serif;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+}
+
+.infoBlock h5 {
+    font-family: 'Gotham-Medium', 'Arial', serif;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: #ccc;
+    padding: 3rem;
+    bottom: 0;
+    width: 100%;
+}
+
+.infoBlock h6 {
+    font-family: 'Gotham-Black';
+    font-size: 2.2rem;
+}
+
+.red {
+    color: #c8492e;
+}
+
+@-webkit-keyframes scrollLeft{
+    from {background-position: bottom left;}
+    to {background-position: bottom right;}
+}
+
