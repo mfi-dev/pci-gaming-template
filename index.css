@@ -34,6 +34,10 @@
     border-color: #742919;
 }
 
+.alabamaBackground {
+    background: #000 url('./img/alabama.svg') center center no-repeat;
+}
+
 .jumbotron {
     background-color: #000;
     color: #fff;
