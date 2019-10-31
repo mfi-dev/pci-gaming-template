@@ -136,9 +136,9 @@
     text-transform: uppercase;
 }
 
-.infoBlock h5 strong {
-    font-family: 'Gotham-Black', 'Arial', serif;
-    text-transform: uppercase;
+.infoBlock h7 strong {
+    font-family: 'Gotham-Medium', 'Arial', serif;
+    font-weight: 900;
 }
 
 footer {
