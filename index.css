@@ -38,7 +38,7 @@
     background-color: #000;
     color: #fff;
     text-align: center;
-    background: #000 url('img/cityscape.svg') bottom left repeat-x;
+    background: #000 url('./img/cityscape.svg') bottom left repeat-x;
     background-size: auto;
     animation: scrollLeft 5s;
     overflow-x: hidden;
