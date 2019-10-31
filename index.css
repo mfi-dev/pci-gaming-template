@@ -36,6 +36,7 @@
 
 .alabamaBackground {
     background: #000 url('./img/alabama.svg') center center no-repeat;
+    padding: 1.5rem 0;
 }
 
 .jumbotron {
