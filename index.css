@@ -141,7 +141,22 @@
     margin: 0 auto;
     background-color: #000;
     color: #fff;
-    padding: 1.2rem;
+    padding-bottom: 1.8rem;
+}
+
+.emailForm form {
+    margin: 0;
+}
+
+.emailForm input { 
+    width: 100% !important;
+}
+.emailForm label {
+    font-size: .75rem;
+    line-height: 1.8rem;
+}
+.emailForm .form-group {
+    margin-top: -1.8rem;
 }
 
 .infoBlock {
@@ -178,6 +193,12 @@
     width: 100%;
 }
 
+.infoBlock a {
+    max-width: 100%;
+    overflow: hidden;
+    padding-left: .6rem;
+    padding-right: .6rem;
+}
 
 .infoBlock h6 {
     font-family: 'Gotham-Black';
@@ -188,13 +209,16 @@
 .infoBlock h4 {
     font-family: 'Gotham-Black', 'Arial', serif;
     font-size: 2.8rem;
+    line-height: 2.8rem;
     text-transform: uppercase;
+    margin: 0;
 }
 
 .infoBlock h5 {
     font-family: 'Gotham-Medium', 'Arial', serif;
     font-size: 1.6rem;
     text-transform: uppercase;
+    margin-bottom: 0;
 }
 
 .infoBlock p strong {
