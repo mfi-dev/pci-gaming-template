@@ -86,8 +86,6 @@
     margin-bottom: 1.5rem;
 }
 
-
-
 @media all and (max-width: 575px) {
     .jumbotron h1 {
         font-size: 4.3rem;
@@ -191,19 +189,19 @@
 }
 
 .infoBlock {
-    padding: 1.5rem;
+    padding: 1.5rem 0;
     text-align: center;
 }
 
 .infoBlock p {
-    font-family: 'Arial', serif;
-    font-size: 1.7rem;
+    font-family: 'Gotham-Medium','Arial', serif;
+    font-size: 1.3rem;
 }
 
 .infoBlock p.longText {
     text-align: left;
     padding-left: 1rem;
-    font-size: 1rem;
+    font-size: .85rem;
 }
 
 .infoBlock--dark {
@@ -239,10 +237,19 @@
 
 .infoBlock h4 {
     font-family: 'Gotham-Black', 'Arial', serif;
-    font-size: 2.8rem;
-    line-height: 2.8rem;
+    font-size: 3.8rem;
+    line-height: 3.8rem;
     text-transform: uppercase;
     margin: 0;
+}
+
+.infoBlock strong {
+    font-family: 'Gotham-Black', 'Arial', serif;
+    font-weight: 900;
+}
+
+.infoBlock h4.squish {
+    margin-top: -10px;
 }
 
 .infoBlock h5 {
@@ -275,4 +282,13 @@ footer img {
 
 .red {
     color: #c8492e;
+}
+
+.paidForBy {
+    font-size: .5rem;
+    bottom: 12px;
+}
+
+.paidForBy_Container a {
+    font-size: 9px;
 }
