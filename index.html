@@ -30,14 +30,20 @@
 
     <div class="emailForm">
         <div class="container">
-            <div class="row justify-content-md-center">
+            <div class="row justify-content-center no-gutters">
                 <form class="form-inline">
-                    <span class="stayInformed"><strong>Stay informed!</strong></span>
-                    <div class="form-group">
-                        <label for="emailAddress">Email address &nbsp;&nbsp;</label>
-                        <input type="email" class="form-control" id="emailAddress" placeholder="name@example.com">
+                    <div class="col-xs-12 col-sm-3 col-md-3 stayInformed_Container">
+                        <strong>Stay informed!</strong>
                     </div>
-                    <button type="submit" class="btn btn-primary btn-red submitButton">Submit</button>
+                    <div class="col-xs-10 col-sm-7 col-md-8 emailInput_Container">
+                        <div class="form-group">
+                            <label for="emailAddress">Email address &nbsp;&nbsp;</label>
+                            <input type="email" class="form-control" id="emailAddress" placeholder="name@example.com">
+                        </div>
+                    </div>
+                    <div class="col-xs-2 col-sm-2 col-md-1 submitButton_Container">                            
+                        <button type="submit" class="btn btn-primary btn-red submitButton">Submit</button>
+                    </div>
                 </form>
             </div>
         </div>
