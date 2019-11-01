@@ -43,28 +43,38 @@
     background-color: #000;
     color: #fff;
     text-align: center;
-    background: #000 url('./img/cityscape.svg') bottom left repeat-x;
-    background-size: auto;
-    animation: scrollLeft 5s;
+    background-image: url('./img/cityscape.svg');
+    background-clip: border-box;
+    background-size: auto 150px;
+    background-repeat: repeat-x;
+    background-position: bottom center;
+    /* animation: scrollLeft 8s; */
     overflow-x: hidden;
     margin-bottom: 0;
+}
+
+@keyframes scrollLeft{
+    from {background-position: bottom left;}
+    to {background-position: bottom right;}
 }
 
 .jumbotron h1 {
     font-family: 'Gotham-Medium', Arial, serif;
     font-weight: normal;
     font-style: normal;
-    font-size: 4.0rem;
+    font-size: 7.5rem;
     text-transform: uppercase;
     margin-bottom: 0;
-    line-height: 4rem;
+    line-height: 7.5rem;
 }
 
 .jumbotron h2 {
     font-family: 'Gotham-Book', serif;
     font-weight: normal;
-    line-height: 2.2rem;
+    font-size: 3.8rem;
+    line-height: 3.8rem;
     margin-top: -9px;
+    margin-bottom: 4rem;
 }
 
 .jumbotron h3 {
@@ -105,8 +115,15 @@
 
 .infoBlock p {
     font-family: 'Arial', serif;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
 }
+
+.infoBlock p.longText {
+    text-align: left;
+    padding-left: 1rem;
+    font-size: 1rem;
+}
+
 .infoBlock--dark {
     background-color: #000;
     color: #fff;
@@ -121,7 +138,7 @@
     color: #c8492e;
 }
 
-.infoBlock h4, .infoBlock h5, .infoBlock h6, .infoBlock h7 {
+.infoBlock h4, .infoBlock h5, .infoBlock h6, .infoBlock p {
     width: 100%;
 }
 
@@ -129,6 +146,7 @@
 .infoBlock h6 {
     font-family: 'Gotham-Black';
     font-size: 2.2rem;
+    margin-bottom: 2.2rem;
 }
 
 .infoBlock h4 {
@@ -143,7 +161,7 @@
     text-transform: uppercase;
 }
 
-.infoBlock h7 strong {
+.infoBlock p strong {
     font-family: 'Gotham-Medium', 'Arial', serif;
     font-weight: 900;
 }
@@ -155,6 +173,11 @@ footer {
     width: 100%;
 }
 
+footer a, footer a:active, footer a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
 footer img {
     max-width: 120px;
 }
@@ -162,9 +185,3 @@ footer img {
 .red {
     color: #c8492e;
 }
-
-@-webkit-keyframes scrollLeft{
-    from {background-position: bottom left;}
-    to {background-position: bottom right;}
-}
-
