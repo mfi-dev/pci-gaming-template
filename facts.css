@@ -1,0 +1,41 @@
+/* ORANGE - #c8482d */
+/* RED - #782c1c */
+
+@font-face {
+    font-family: "Gotham-Black";
+    src: url("fonts/Gotham-Black.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Gotham-Medium";
+    src: url("fonts/Gotham-Medium.otf") format("opentype");
+}
+
+.card {
+    min-height: 300px;
+    position: relative;
+    background: #c8482d;
+    color: #fff;
+    margin: 2rem 0;
+    font-family: 'Gotham-Medium';
+    font-size: 2.0rem;
+    text-align: center;
+}
+
+em {
+    font-family: 'Gotham-Black';
+    font-style: normal;
+    font-size: 3.5rem;
+    display: block;
+    width: 100%;
+}
+
+.card-header {
+    text-align: center;
+    border: 0;
+    height: 70px;
+    margin-top: -35px;
+    background: transparent url('./img/alabama-black.svg') center center no-repeat;
+}
+
+
