@@ -69,4 +69,23 @@ strong {
     background: transparent url('./img/alabama-black.svg') center center no-repeat;
 }
 
+.video-link a {
+    position: relative;
+}
 
+.video-link .overlay {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -75px;
+    margin-top: -75px;
+    background: transparent url('./img/play-icon.png') center center no-repeat;
+    background-size: contain;
+    z-index: 3;
+}
+
+.video-link img {
+    z-index: 2;
+}
