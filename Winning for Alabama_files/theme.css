@@ -62,5 +62,12 @@
 }
 
 .infoBlock {
-    /* min-height: 420px; */
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 505px;
+}
+.alabamaBackground {
+    display:table-cell;
+    vertical-align: middle;
 }
